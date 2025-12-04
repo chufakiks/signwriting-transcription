@@ -10,8 +10,8 @@ from pathlib import Path
 from typing import Dict, List, Union, Any
 import numpy as np
 from joeynmt.constants import BOS_TOKEN, EOS_TOKEN, PAD_TOKEN, UNK_TOKEN
-from joeynmt.helpers import ConfigurationError
-from joeynmt.helpers_for_audio import _get_features_from_zip
+from data_helpers import ConfigurationError
+from data_helpers import _get_features_from_zip
 from joeynmt.tokenizers import (
     BasicTokenizer,
     SentencePieceTokenizer,

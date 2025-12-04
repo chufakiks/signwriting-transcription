@@ -14,7 +14,7 @@ import numpy as np
 import pandas as pd
 import sentencepiece as sp
 from tqdm import tqdm
-from joeynmt.helpers import write_list_to_file
+from data_helpers import write_list_to_file
 
 from joeynmt.constants import (
     BOS_ID,
@@ -26,7 +26,7 @@ from joeynmt.constants import (
     UNK_ID,
     UNK_TOKEN,
 )
-from joeynmt.helpers_for_audio import _is_npy_data
+from data_helpers import _is_npy_data
 from signwriting.tokenizer.signwriting_tokenizer import SignWritingTokenizer
 
 
