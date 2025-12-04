@@ -14,7 +14,7 @@ import numpy as np
 import pandas as pd
 import sentencepiece as sp
 from tqdm import tqdm
-from data_helpers import write_list_to_file
+from joeynmt.helpers import write_list_to_file
 
 from joeynmt.constants import (
     BOS_ID,
