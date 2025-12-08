@@ -37,7 +37,7 @@ def download_model(experiment_dir: Path, model_name: str):
         # pylint: disable=import-outside-toplevel
         from huggingface_hub import hf_hub_download
 
-        hf_hub_download(repo_id=HUGGINGFACE_REPO_ID, filename=model_name, repo_type='space', local_dir='experiment')
+        hf_hub_download(repo_id=HUGGINGFACE_REPO_ID, filename=model_name, local_dir='experiment')
         full_path = str(Path('experiment').absolute())
         best_ckpt_path = f'{full_path}/best.ckpt'
         # remove symlink if exists
