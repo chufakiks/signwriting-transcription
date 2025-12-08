@@ -17,7 +17,7 @@ from signwriting_transcription.pose_to_signwriting.data.pose_data_utils import b
 from signwriting_transcription.pose_to_signwriting.data.preprocessing import preprocess_single_file
 from signwriting_transcription.pose_to_signwriting.joeynmt_pose.prediction import translate
 
-HUGGINGFACE_REPO_ID = "ohadlanger/signwriting_transcription"
+HUGGINGFACE_REPO_ID = "ohadlanger/signwriting_transcription_repo"
 PADDING_PACTOR = 0.25  # padding factor for tight strategy, 25% padding from both sides of the segment
 
 
